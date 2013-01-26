@@ -1,0 +1,7 @@
+<div data-rt-extends="./layout">
+ 
+  <div data-rt-block="main">
+    <div data-version="current | version"></div>
+  </div>
+ 
+</div>

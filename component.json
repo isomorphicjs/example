@@ -1,0 +1,29 @@
+{
+  "name": "example",
+  "repo": "isomorphic/example",
+  "description": "Example Isomorphic App",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "isomorphic/isomorphic": "*",
+    "isomorphic/ism": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "client.js",
+  "scripts": [
+    "client.js",
+    "app.js",
+    "routes/index.js",
+    "routes/user.js",
+    "directives/user.js",
+    "directives/version.js",
+    "filters/version.js",
+    "views/layout.ism.js",
+    "views/index.ism.js",
+    "views/user.ism.js"
+  ],
+  "styles": [
+    "public/styles/main.css"
+  ]
+}

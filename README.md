@@ -1,4 +1,4 @@
-examples
+example
 ========
 
-Collection of example Isomorphic apps
+Example Isomorphic App

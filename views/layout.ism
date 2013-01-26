@@ -1,0 +1,12 @@
+<html>
+  <head>
+  
+  </head>
+  <body>
+    <div data-rt-view="nav">
+      <nav class="default-nav"></nav>
+    </div>
+    <div data-rt-view="main"></div>
+    <script type="text/javascript" src="/assets/build.js"></script>
+  </body>
+</html>

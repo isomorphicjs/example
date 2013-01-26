@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "Example Isomorphic App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node_modules/.bin/startup start",
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isomorphicjs/example.git"
+  },
+  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "startup": "~0.0.14"
+  }
+}

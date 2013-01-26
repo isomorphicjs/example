@@ -1,0 +1,11 @@
+<div data-rt-extends="./layout">
+ 
+  <div data-rt-block="main">
+    <div data-rt-bind="user.name"></div>
+  </div>
+ 
+  <div data-rt-block="nav">
+    <nav class="custom-nav"></nav>
+  </div>
+ 
+</div>
