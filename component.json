@@ -1,12 +1,12 @@
 {
   "name": "example",
-  "repo": "isomorphic/example",
+  "repo": "isomorphicjs/example",
   "description": "Example Isomorphic App",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "isomorphic/isomorphic": "*",
-    "isomorphic/ism": "*"
+    "isomorphicjs/isomorphic": "*",
+    "isomorphicjs/ism": "*"
   },
   "development": {},
   "license": "MIT",
