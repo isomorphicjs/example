@@ -6,7 +6,8 @@
   "keywords": [],
   "dependencies": {
     "isomorphicjs/isomorphic": "*",
-    "isomorphicjs/ism": "*"
+    "isomorphicjs/ism": "*",
+    "isomorphicjs/runner": "*"
   },
   "development": {},
   "license": "MIT",

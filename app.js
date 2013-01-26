@@ -16,7 +16,7 @@ var app = module.exports = isomorphic();
  
 app.configure(function () {
   app.set("view engine", "ism");
-  app.engine("ism", ism.__express);
+  app.engine("ism", ism.__isomorphic);
 
   // ism config
   /*
@@ -31,7 +31,12 @@ app.configure(function () {
   ism.filter("cool-version", versionFilter);
 });
 
+app.platform("client", function() {
+  app.set("views", "/example/views");
+});
+
 app.platform("server", function() {
+  app.set("views", __dirname+"/views");
 
   // Enable view streaming
   // app.set("streaming", true);
@@ -50,6 +55,13 @@ app.platform("server", function() {
 
   // render the page in the server for bots
   app.use(isomorphic.bots());
+});
+
+app.platform(function() {
+  app.use(function(err, req, res, next) {
+    console.error(err);
+    res.end();
+  });
 });
  
 /*

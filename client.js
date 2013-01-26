@@ -2,10 +2,10 @@
  * Module dependencies
  */
 var app = require("./app")
-  , isomorphic = require("isomorphic")
+  , runner = require("runner")
   , root = document.getElementsByTagName("html")[0];
  
 /*
- * Mount our app at the root
+ * Mount our app at the root and run it
  */
-isomorphic.init(root, app);
+runner.init(root, app);
