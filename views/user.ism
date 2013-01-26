@@ -1,11 +1,9 @@
-<div data-rt-extends="./layout">
- 
-  <div data-rt-block="main">
-    <div data-rt-bind="user.name"></div>
-  </div>
- 
-  <div data-rt-block="nav">
-    <nav class="custom-nav"></nav>
-  </div>
- 
-</div>
+<meta name="ism-extend" content="./layout">
+
+<section data-ism-block="main">
+  <div data-ism-bind="user.name"></div>
+</section>
+
+<section data-ism-block="nav">
+  <nav class="custom-nav"></nav>
+</section>

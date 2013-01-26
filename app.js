@@ -37,15 +37,11 @@ app.platform("client", function() {
 
 app.platform("server", function() {
   app.set("views", __dirname+"/views");
-
-  // Enable view streaming
-  // app.set("streaming", true);
  
   // enables/disables server side rendering
   // can also be set per request
   // Defaults to false
   // app.set("server render", true);
-
   
   // Log our requests
   app.use(isomorphic.logger("dev"));
